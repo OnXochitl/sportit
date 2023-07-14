@@ -1,0 +1,426 @@
+* {
+  font-family: 'Be Vietnam Pro', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 30px 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+button:hover {
+  background-color: #8B48BF;
+  opacity: .71;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+button {
+  background-color: #8B48BF;
+  color: #ffffff;
+  width: 110px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+}
+
+.navList,
+.buttonContact {
+  display: none;
+}
+
+.MenuHamburger img {
+  width: 50px;
+}
+
+.welcome {
+  margin-top: 30px;
+  text-align: right;
+  padding-right: 40px;
+}
+
+.welcome article img {
+  width: 90%;
+}
+
+.welcome article {
+  width: 100%;
+}
+
+.contact {
+  margin-top: 80px;
+}
+
+.welcome .contact p {
+  font-size: 16px;
+  padding: 20px 0 20px 60px;
+}
+
+.welcome article h1 {
+  font-size: 40px;
+}
+
+.welcome article p {
+  font-size: 18px;
+}
+
+.text-pro {
+  color: #ffffff;
+  background-color: #3CDDF3;
+  margin-top: 30px;
+  padding: 20px 0;
+}
+
+.text-pro p:nth-child(3) {
+  display: none;
+}
+
+.text-pro h2,
+.text-pro p {
+  padding: 20px 20px;
+  width: 100%;
+}
+
+.text-pro h2 {
+  font-size: 36px;
+}
+
+.text-pro p {
+  line-height: 23px;
+  font-size: 16px;
+}
+
+.target {
+  padding: 40px 0 10px 0;
+}
+
+.target article {
+  padding-left: 40px;
+}
+
+.targetTitle {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 10px 0;
+  background-color: rgba(139, 72, 191, .3);
+}
+
+.targetTitle span:nth-child(1) {
+  color: #ffffff;
+  padding: 10px 25px;
+  background-color: #8B48BF;
+  border-radius: 20px;
+}
+
+.targetTitle span:nth-child(2) {
+  padding-left: 10px;
+}
+
+.target article p {
+  color: #B3B2B7;
+  line-height: 24px;
+  padding: 30px 35px 30px 0;
+}
+
+.bestMonth {
+  margin-top: 30px;
+}
+
+.bestMonth h2 {
+  font-size: 35px;
+  text-align: center;
+}
+
+.targetSport {
+  background-color: #ffffff;
+  margin: 100px 22px -80px 22px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.targetSport div {
+  background-color: #FAFAFA;
+  padding-bottom: 20px;
+  margin-bottom: 60px;
+}
+
+.targetSport img {
+  margin-top: -35px;
+}
+
+.targetSport h4 {
+  padding: 20px 0;
+}
+
+.targetSport p {
+  color: #B9B9C1;
+  padding: 0 20px;
+}
+
+.buttonMore {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.knowTeam {
+  background-color: #3CDDF3;
+  color: #ffffff;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.knowTeam article h2:nth-child(2) {
+  display: none;
+}
+
+.knowTeam article button {
+  background-color: #232C50;
+  box-shadow: rgba(0, 0, 0, .3) 0px 3.5px 5px;
+}
+
+.knowTeam article h2 {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 500;
+  padding: 30px 0;
+}
+
+footer {
+  background-color: black;
+  color: #ffffff;
+}
+
+.footer article {
+  padding: 20px 0;
+}
+
+.sendMessage, .socialNetworks, .copyright {
+  text-align: center;
+}
+
+.sendMessage input {
+  height: 40px;
+  width: 350px;
+  margin-right: 5px;
+  border-radius: 20px;
+  border: none;
+  padding: 10px;
+}
+
+.sendMessage button {
+  width: 50px;
+}
+
+.listhref div ul li {
+  list-style: none;
+  line-height: 30px;
+}
+
+.listhref {
+  display: flex;
+  justify-content: space-around;
+}
+
+.socialNetworks div {
+  display: flex;
+  justify-content: space-around;
+  padding: 25px 0;
+}
+
+.footer .sendMessage {
+  padding-top: 50px;
+}
+
+.copyright {
+  color: #8C8C94;
+  padding: 0 0 50px 0;
+}
+
+@media (min-width: 1440px) {
+  header {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 60px 0px;
+  }
+
+  header .navList {
+    width: 35%;
+  }
+
+  .navList,
+  .buttonContact {
+    display: block;
+  }
+
+  .buttonContact button {
+    box-shadow: rgba(0, 0, 0, .3) 0px 3.5px 5px;
+  }
+
+  .navList nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .navList nav ul li {
+    color: black;
+    list-style: none;
+  }
+
+  .navList nav ul li:hover {
+    color: #8C8C94;
+  }
+
+  .MenuHamburger {
+    display: none;
+  }
+
+  .welcome {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .welcome article {
+    width: 40%;
+  }
+
+  .contact {
+    margin: 0;
+  }
+
+  .text-pro {
+    padding: 30px 0;
+    background-color: #8B48BF;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .text-pro p:nth-child(2) {
+    display: none;
+  }
+
+  .text-pro p:nth-child(3) {
+    display: block;
+  }
+
+  .text-pro h2,
+  .text-pro p {
+    width: 35%;
+  }
+
+  .target {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAFAFA;
+  }
+  
+  .target article {
+    width: 40%;
+    padding-left: 30px;
+  }
+
+  .targetTitle {
+    background-color: #FAFAFA;
+  }
+
+  .target article p {
+    color: #B3B2B7;
+    padding: 10px 30px 30px 84px;
+  }
+
+  .bestMonth {
+    margin-top: 80px;
+  }
+
+  .targetSport {
+    display: flex;
+  }
+
+  .buttonMore {
+    margin: 40px 0 150px 0;
+}
+
+  .knowTeam {
+    padding: 20px 0;
+    display: flex;
+    background-color: #8B48BF;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .knowTeam article h2:nth-child(1) {
+    display: none;
+  }
+
+  .knowTeam article h2:nth-child(2) {
+    display: block;
+  }
+
+  .knowTeam article {
+    width: 500px;
+  }
+  
+  .knowTeam article {
+    padding-left: 80px;
+  }
+  
+  .knowTeam article:nth-child(2) {
+    text-align: center;
+  }
+
+  .knowTeam article h2 {
+    padding: 30px 0;
+    text-align: left;
+  }
+
+  .knowTeam article button {
+    color: #8B48BF;
+    background-color: #ffffff;
+    width: 125px;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: baseline;
+  }
+
+  .listhref {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+  }
+
+  .sendMessage input {
+    width: 200px;
+  }
+
+  .socialNetworks {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column-reverse;
+  }
+
+  .socialNetworks div a {
+    padding: 10px;
+  }
+
+  .copyright {
+    text-align: end;
+    padding-right: 50px;
+  }
+}
